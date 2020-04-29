@@ -9,7 +9,6 @@ body {
     position: absolute;
     top: 50%;
     width: 100%;
-/*     height: 300px; */
     margin-top: -150px;
 }
 
@@ -19,7 +18,6 @@ body {
     font-weight: 200;
     text-align: center;
     text-transform: uppercase;
-/*     line-height: 210px; */
 }
 
 .contact {
@@ -41,7 +39,6 @@ body {
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .banner {
     font-size: 0.8em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -50,7 +47,6 @@ body {
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .banner {
     font-size: 0.7em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -59,7 +55,6 @@ body {
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
     .banner {
     font-size: 0.6em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -70,7 +65,6 @@ body {
 @media only screen and (min-width: 750px) and (max-width: 960px) {
     .banner {
     font-size: 0.5em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -79,7 +73,6 @@ body {
 @media only screen and (min-width: 620px) and (max-width: 750px) {
     .banner {
     font-size: 0.4em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -88,7 +81,6 @@ body {
 @media only screen and (min-width: 480px) and (max-width: 620px) {
     .banner {
     font-size: 0.3em;
-/*     height: 200px; */
     margin-top: -100px;
     }
 }
@@ -98,7 +90,6 @@ body {
 @media only screen and (min-width: 200px) and (max-width: 480px) {
     .banner {
     font-size: 0.2em;
-/*     height: 100px; */
     margin-top: -50px;
     }
 }
