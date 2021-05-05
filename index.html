@@ -1,19 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="initial-scale=1"/>
-    <meta name="keywords" content="agnivesh,adhikari,agnivesh.adhikari,agniveshizm">
-    <meta charset="utf-8"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agnivesh Adhikari</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200">
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
-  </head>
-  <body>
-    <div id="viewport">
-      <div class="banner">
-        <div class="name">Agnivesh Adhikari</div>
-        <div class="contact">moc.liamg@irakihda.hsevinga</div>
-      </div>
+    <link rel="stylesheet" type="text/css" href="styles/css/main.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- <div id="navbar" class="navbar">
+        <div class="navbar__content">Agnivesh Adhikari</div>
+        <img src="images/icons/menu.svg" alt="Menu">
+    </div> -->
+
+    <!-- Landing -->
+    <div class="section">
+        <div class="section__content title-banner fadein at-15 at0-0">
+            <div class="title-banner__text-div">
+                <div class="title-banner__text-primary">
+                    <div>
+                        Hi!<br>
+                        I'm Agnivesh Adhikari
+                    </div>
+                </div>
+                <div class="title-banner__text-secondary">
+                    I am a Software Developer at Microsoft,<br>
+                    working on democratizing AI for farmers.
+                </div>
+            </div>
+            <img class="title-banner__img" src="images/pictures/profile.png">
+        </div>
+        <div class="social-logos fadein at-15 at0-15">
+
+            <a href="https://linkedin.com/in/agniveshadhikari" target="_blank">
+                <img class="social-logos__logo" src="images/logos/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://github.com/agniveshadhikari" target="_blank">
+                <img class="social-logos__logo" src="images/logos/github.svg" alt="Github">
+            </a>
+
+            <a href="mailto:agnivesh.adhikari@gmail.com">
+                <img class="social-logos__logo" src="images/logos/email.svg" alt="Mailto">
+            </a>
+            
+            <a href="https://facebook.com/agnivesh.adhikari" target="_blank">
+                <img class="social-logos__logo" src="images/logos/facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com/agniveshizm" target="_blank">
+                <img class="social-logos__logo" src="images/logos/instagram.svg" alt="Instagram">
+            </a>
+        </div>
     </div>
-  </body>
+    
+</body>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            console.log("scroll");
+            console.log($(window).scrollTop(), $(window).height()/2)
+            if ($(window).scrollTop() > $(window).height()*0.75) {
+                $("#navbar").removeClass("navbar--hide")
+                console.log('("#nav-bar").removeClass("navbar--hide")')
+            } else {
+                $("#navbar").addClass("navbar--hide")
+                console.log('$("#nav-bar").addClass("navbar--hide")')
+            }
+        })
+    })
+</script>
 </html>
